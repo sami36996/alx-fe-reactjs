@@ -1,18 +1,11 @@
-import { useState } from 'react';
-import './App.css';
-import Header from './components/Header';
-import MainContent from './components/MainContent';
-import Footer from './components/Footer';
+import React from "react";
+import UserProfile from "./components/UserProfile";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <>
-      <Header />
-      <MainContent />
-      <Footer />
-    </>
+    <div>
+      <UserProfile name="Alice" age="25" bio="Loves hiking and photography" />
+    </div>
   );
 }
 
