@@ -1,7 +1,14 @@
 function Header() {
   return (
-    <header>
-      <h1>My Favorite Cities</h1>
+    <header
+      style={{
+        backgroundColor: '#282c34',
+        color: 'white',
+        textAlign: 'center',
+        padding: '20px',
+      }}
+    >
+      <h1 style={{ margin: 0 }}>Welcome to My React App</h1>
     </header>
   );
 }
