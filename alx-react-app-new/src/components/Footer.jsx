@@ -1,7 +1,17 @@
 function Footer() {
   return (
-    <footer>
-      <p>© 2023 City Lovers</p>
+    <footer
+      style={{
+        backgroundColor: '#282c34',
+        color: 'white',
+        textAlign: 'center',
+        padding: '15px',
+        position: 'fixed',
+        bottom: 0,
+        width: '100%',
+      }}
+    >
+      <p>&copy; 2025 My React App. All rights reserved.</p>
     </footer>
   );
 }
