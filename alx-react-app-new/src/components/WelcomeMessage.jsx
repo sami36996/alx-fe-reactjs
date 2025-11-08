@@ -1,9 +1,16 @@
 function WelcomeMessage() {
   return (
-    <div>
-      <h1>Hello everyone, I am learning React at ALX!</h1>
-      <p>This is a simple JSX component.</p>
-      <p>I am learning about JSX!</p>
+    <div
+      style={{
+        margin: '30px auto',
+        textAlign: 'center',
+        color: '#222',
+      }}
+    >
+      <h2 style={{ fontSize: '22px' }}>Hello, React Learner! 👋</h2>
+      <p style={{ color: '#555' }}>
+        Keep pushing forward—you’re building something awesome.
+      </p>
     </div>
   );
 }
