@@ -1,3 +1,4 @@
+import SearchBar from "./components/SearchBar";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import AddRecipeForm from './components/AddRecipeForm';
 import RecipeList from './components/RecipeList';
@@ -18,6 +19,7 @@ function App() {
           element={
             <>
               <AddRecipeForm />
+              <SearchBar />    {/* ← ADD IT HERE */}
               <RecipeList />
             </>
           }
@@ -29,4 +31,3 @@ function App() {
 }
 
 export default App;
-
